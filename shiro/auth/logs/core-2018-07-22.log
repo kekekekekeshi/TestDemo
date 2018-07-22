@@ -1,0 +1,22 @@
+2018-07-22 13:56:54.636 [main] DEBUG org.apache.shiro.io.ResourceUtils - Opening resource from class path [shiro.ini]
+2018-07-22 13:56:54.658 [main] DEBUG org.apache.shiro.config.Ini - Parsing [users]
+2018-07-22 13:56:54.661 [main] DEBUG org.apache.shiro.config.Ini - Parsing [roles]
+2018-07-22 13:57:53.942 [main] DEBUG org.apache.shiro.io.ResourceUtils - Opening resource from class path [shiro.ini]
+2018-07-22 13:57:53.958 [main] DEBUG org.apache.shiro.config.Ini - Parsing [users]
+2018-07-22 13:57:53.960 [main] DEBUG org.apache.shiro.config.Ini - Parsing [roles]
+2018-07-22 13:57:53.963 [main] DEBUG org.apache.shiro.config.IniFactorySupport - Creating instance from Ini [sections=users,roles]
+2018-07-22 13:57:54.041 [main] DEBUG org.apache.shiro.realm.text.IniRealm - Discovered the [roles] section.  Processing...
+2018-07-22 13:57:54.044 [main] DEBUG org.apache.shiro.realm.text.IniRealm - Discovered the [users] section.  Processing...
+2018-07-22 13:57:54.061 [main] INFO  AuthMain - 身份验证！
+2018-07-22 13:57:54.063 [main] DEBUG org.apache.shiro.realm.AuthenticatingRealm - Looked up AuthenticationInfo [root] from doGetAuthenticationInfo
+2018-07-22 13:57:54.064 [main] DEBUG org.apache.shiro.realm.AuthenticatingRealm - AuthenticationInfo caching is disabled for info [root].  Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - root, rememberMe=false].
+2018-07-22 13:57:54.065 [main] DEBUG o.a.s.authc.credential.SimpleCredentialsMatcher - Performing credentials equality check for tokenCredentials of type [[C and accountCredentials of type [java.lang.String]
+2018-07-22 13:57:54.065 [main] DEBUG o.a.s.authc.credential.SimpleCredentialsMatcher - Both credentials arguments can be easily converted to byte arrays.  Performing array equals comparison
+2018-07-22 13:57:54.066 [main] DEBUG org.apache.shiro.authc.AbstractAuthenticator - Authentication successful for token [org.apache.shiro.authc.UsernamePasswordToken - root, rememberMe=false].  Returned account [root]
+2018-07-22 13:57:54.067 [main] DEBUG o.a.shiro.subject.support.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2018-07-22 13:57:54.067 [main] DEBUG o.a.shiro.subject.support.DefaultSubjectContext - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2018-07-22 13:57:54.068 [main] DEBUG o.a.s.session.mgt.AbstractValidatingSessionManager - No sessionValidationScheduler set.  Attempting to create default instance.
+2018-07-22 13:57:54.069 [main] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager - Enabling session validation scheduler...
+2018-07-22 13:57:54.079 [main] DEBUG org.apache.shiro.session.mgt.DefaultSessionManager - Creating new EIS record for new session instance [org.apache.shiro.session.mgt.SimpleSession,id=null]
+2018-07-22 13:57:54.107 [main] INFO  AuthMain - root身份验证成功！
+2018-07-22 13:57:54.108 [main] INFO  AuthMain - root是管理员！
